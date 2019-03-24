@@ -6,8 +6,8 @@ COIN_DAEMON='supernoded'
 COIN_CLI='supernode-cli'
 COIN_PATH='/usr/local/bin/'
 #
-COIN_GETDMN='https://github.com/Remapper/Supernode/blob/master/supernoded'
-COIN_GETCLI='https://github.com/Remapper/Supernode/blob/master/supernode-cli'
+COIN_GETDMN='https://github.com/Remapper/Supernode/releases/download/1.0.0.0/supernoded'
+COIN_GETCLI='https://github.com/Remapper/Supernode/releases/download/1.0.0.0/supernode-cli'
 #
 COIN_NAME='Supernode'
 COIN_EXPLORER='http://209.250.224.186'
