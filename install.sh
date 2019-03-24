@@ -4,10 +4,11 @@ CONFIG_FILE='supernode.conf'
 CONFIGFOLDER='/root/.supernode'
 COIN_DAEMON='supernoded'
 COIN_CLI='supernode-cli'
-#
 COIN_PATH='/usr/local/bin/'
+#
 COIN_GETDMN='https://github.com/Remapper/Supernode/blob/master/supernoded'
 COIN_GETCLI='https://github.com/Remapper/Supernode/blob/master/supernode-cli'
+#
 COIN_NAME='Supernode'
 COIN_EXPLORER='http://209.250.224.186'
 COIN_PORT=12123
@@ -55,6 +56,9 @@ function download_node() {
   cd $TMP_FOLDER >/dev/null 2>&1
   wget -q $COIN_GETDMN
   wget -q $COIN_GETCLI
+  #wget -q $COIN_TGZ - getting files directly uncompressed
+  #compile_error - skip
+  #unzip $COIN_ZIP >/dev/null 2>&1 - no need to unzip
   cp $COIN_DAEMON >/dev/null 2>&1
   cp $COIN_CLI >/dev/null 2>&1
   chmod +x $COIN_DAEMON
