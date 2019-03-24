@@ -4,6 +4,7 @@ CONFIG_FILE='supernode.conf'
 CONFIGFOLDER='/root/.supernode'
 COIN_DAEMON='supernoded'
 COIN_CLI='supernode-cli'
+#
 COIN_PATH='/usr/local/bin/'
 COIN_GETDMN='https://github.com/Remapper/Supernode/blob/master/supernoded'
 COIN_GETCLI='https://github.com/Remapper/Supernode/blob/master/supernode-cli'
